@@ -11,7 +11,7 @@ int main() {
 
     for (int i = 0; i < NUMS.size(); i++) {
         frequencyMap[NUMS[i]]++;
-
+        
     }
     cout << "Element: \t" << "Repeated:" <<endl; 
     for (auto i: frequencyMap) {
